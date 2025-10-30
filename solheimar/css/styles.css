@@ -1,0 +1,637 @@
+:root {
+    --btn-hover: #2CE3A2;
+    --btn-orange: #F6B53B;
+    --btn-grey: #F9FAFB;
+    --darker-blue-bkg: #101828;
+    --dk--blue-bkg: #1E2939;
+}
+
+.inner-container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    ;
+    font-size: 1rem;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h6 {
+    font-family: "Fraunces", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+header a,
+footer a {
+    color: #fff;
+}
+
+header,
+section,
+footer {
+    padding: 1rem;
+}
+
+.menu-svg {
+    width: 4rem;
+    height: 4rem;
+}
+
+.btn-svg {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header,
+footer {
+    background-color: var(--darker-blue-bkg);
+}
+
+header .sol-div {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    background-color: var(--darker-blue-bkg);
+    position: absolute;
+    left: -105rem;
+    width: 100%;
+    height: 21rem;
+    transition: left 0.50s;
+    text-align: center;
+}
+
+header nav a {
+    text-transform: uppercase;
+}
+
+header nav ul {
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+header .sign-in {
+    font-size: 1.125rem;
+}
+
+header nav li {
+    margin-bottom: 1.5rem;
+}
+
+header .show-nav {
+    left: 0rem;
+    transition: left 0.50s;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+header .search-svg {
+    width: 2.25rem;
+    margin-top: 0.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+header .search-bar {
+    border: solid 1px #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    height: 2.8125rem;
+    max-width: 17.5rem;
+    margin: 1.5rem auto;
+}
+
+
+header input {
+    background-color: var(--darker-blue-bkg);
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #fff;
+    width: 21.0625rem;
+}
+
+header input::placeholder {
+    color: #fff;
+}
+
+header label {
+    background-color: #6A7282;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-transform: uppercase;
+}
+
+
+main svg {
+    width: 1.5rem;
+
+}
+
+main form div {
+    flex-direction: column;
+}
+
+.reykjavik {
+    background: url(/img/hero-banner.avif) center / cover no-repeat;
+}
+
+.reykjavik h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 6rem 0 1.5rem;
+}
+
+.reykjavik p:first-of-type {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.reykjavik p:last-of-type {
+    margin-bottom: 30rem;
+}
+
+.reykjavik a {
+    display: flex;
+    margin: 1rem auto 0;
+    width: 17.5rem;
+    height: 3.375rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.reykjavik a:first-of-type {
+    background-color: var(--btn-grey);
+}
+
+.reykjavik a:last-of-type {
+    background-color: var(--btn-orange);
+    margin-bottom: 6rem;
+}
+
+.reykjavik a:hover,
+.reykjavik a:focus {
+    background-color: var(--btn-hover);
+}
+
+.path-of-fire {
+    background: url(/img/background-1.avif) center / cover no-repeat;
+    background-color: var(--dk--blue-bkg);
+}
+
+.path-of-fire img {
+    width: 13.375rem;
+    height: 13.375rem;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.path-of-fire img:first-of-type {
+    margin-top: 5rem;
+}
+
+.path-of-fire img:nth-of-type(2) {
+    justify-self: end;
+}
+
+.path-of-fire img:last-of-type {
+    margin-bottom: 5rem;
+}
+
+.path-of-fire .img-3 {
+    margin-bottom: 3rem;
+}
+
+.path-of-fire .img-4 {
+    margin-top: 3rem;
+    justify-self: end;
+}
+
+.path-of-fire h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.path-of-fire p {
+    color: #fff;
+}
+
+.path-of-fire p:first-of-type {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.itinerary h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 3rem 0 1.5rem;
+}
+
+.itinerary h4 {
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+
+.itinerary .flex {
+    margin: 0;
+    padding: 0;
+}
+
+.itinerary svg {
+    max-width: 1.5rem;
+    min-width: 1.5rem;
+    margin-right: 2rem;
+    align-self: flex-start;
+    padding-top: 0.35rem;
+}
+
+.itinerary h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 1.5rem;
+}
+
+.itinerary p {
+    margin-bottom: 2.25rem;
+}
+
+.itinerary .it-last-p {
+    margin-bottom: 6rem;
+}
+
+.save-now {
+    background: url(/img/background-2.avif) center / cover no-repeat;
+    background-color: var(--dk--blue-bkg);
+}
+
+.save-now h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    margin: 4rem 0 1.5rem;
+}
+
+.save-now p {
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.save-now form {
+    color: #fff;
+}
+
+.save-now form label {
+    margin-bottom: 0.5rem;
+}
+
+.save-now form input {
+    margin-bottom: 1.5rem;
+    padding: 0.65rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.save-now form input:hover,
+.save-now form input:focus {
+    cursor: pointer;
+}
+
+.save-now form input::placeholder {
+    text-transform: uppercase;
+}
+
+.save-now form .check {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.save-now form .check input {
+    margin: 0 0.5rem 0 0;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+}
+
+.save-now form .submit-btn {
+    display: block;
+    margin: 1.5rem auto 5rem;
+    width: 17.5rem;
+    height: 3.375rem;
+    justify-content: space-evenly;
+    border-radius: 80px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    background-color: var(--btn-orange);
+}
+
+.save-now form .submit-btn:hover,
+.save-now form .submit-btn:focus {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+footer p,
+footer li,
+footer h6,
+footer h5 {
+    color: #fff;
+}
+
+footer a {
+    text-transform: none;
+}
+
+footer svg {
+    width: 1rem;
+    margin-right: 0.25rem;
+}
+
+footer h6 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 4rem 0 1.5rem;
+}
+
+footer p {
+    margin-bottom: 2.5rem;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+footer ul {
+    padding: 0;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+@media (width > 800px) {
+    header .search-bar {
+        max-width: 21.0625rem;
+    }
+
+    .small-container {
+        max-width: 700px;
+    }
+
+    .itinerary .small-container {
+        margin: 0 auto;
+    }
+
+    .reykjavik h2 {
+        font-size: 4.6875rem;
+    }
+
+    .reykjavik div div {
+        display: flex;
+    }
+
+    .reykjavik a {
+        width: 20.6875rem;
+        height: 3.375rem;
+        align-items: center;
+    }
+
+    .path-of-fire .img-set,
+    .path-of-fire .img-set-2 {
+        margin: 0 auto;
+    }
+
+     .path-of-fire h2 {
+        font-size: 4.6875rem;
+    }
+
+    .itinerary h3 {
+        font-size: 6rem;
+    }
+
+    .save-now h2 {
+        font-size: 4.6875rem;
+    }
+
+    .save-now form .submit-btn {
+        width: 20.6875rem;
+        height: 3.375rem;
+        align-items: center;
+    }
+
+    footer h6 {
+        font-size: 10rem;
+    }
+}
+
+@media (width > 1600px) {
+    header nav {
+        position: absolute;
+        height: 0;
+    }
+
+    header {
+        height: 6.5rem;
+    }
+
+    header h1{
+        position: absolute;
+        right: 45.5rem;
+        top: 1.5rem;
+    }
+
+    header h1:hover,
+    header h1:focus {
+        text-decoration: underline;
+    }
+
+    header .toggle-btn {
+        display: none;
+    }
+
+    header ul {
+        display: flex;
+        gap: 2rem;
+        position: absolute;
+        right: -39rem;
+        top: 0.25rem;
+
+    }
+
+    header .search-bar {
+        position: absolute;
+        right: -90rem;
+        top: -0.6rem;
+    }
+
+    header .sign-in {
+        position: absolute;
+        right: -100rem;
+        top: 1.5rem;
+    }
+
+    .reykjavik a {
+        gap: 2rem;
+    }
+
+    .path-of-fire .grid-container {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .path-of-fire .img-1 {
+        grid-column: 4 / span 2;
+    }
+
+    .path-of-fire .img-2 {
+        grid-column: 1 / span 2;
+    }
+
+    .path-of-fire .img-3 {
+        grid-column: 3 / span 2;
+        grid-row: 3 / span 2;
+    }
+
+    .path-of-fire .pof-text {
+        grid-column: 6 / span 5;
+    }
+
+    .path-of-fire .img-4 {
+        grid-column: 11 / span 2;
+        grid-row: 3 / span 2;
+    }
+
+    .path-of-fire .img-5 {
+        grid-column: 8 / span 2;
+        grid-row: 4 / span 2;
+    }
+
+    .itinerary h3 {
+        font-size: 11.25rem;
+        writing-mode: sideways-lr;
+    }
+
+    .itinerary .inner-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .itinerary h4 {
+        margin-top: 6rem;
+    }
+
+    .save-now {
+        padding: 8rem 0;
+    }
+
+    .save-now h2 {
+        margin: 0;
+    }
+
+    .save-now .inner-container {
+        display: flex;
+    }
+
+    .save-now .split {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .save-now .split div {
+        width: 21rem;
+    }
+
+    .save-now .half-1,
+    .save-now .half-2 {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .save-now .half-1 {
+        min-width: 43.75rem;
+    }
+
+    .save-now .half-2 {
+        min-width: 43.75rem;
+    }
+
+    .save-now form .submit-btn {
+        margin: 3rem 0 0;
+    }
+
+    footer h6 {
+        text-align: left;
+    }
+
+    footer .inner-container {
+        display: flex;
+    }
+
+    footer .half-1,
+    footer .half-2 {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    footer .half-1 {
+        min-width: 43.75rem;
+    }
+
+    footer .half-2 {
+        min-width: 43.75rem;
+    }
+
+    footer .three {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .two {
+        display: flex;
+        gap: 11rem;
+    }
+}
